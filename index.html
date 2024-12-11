@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2024 밈 아카이브: 컨텐츠 홍수 시대</title>
+	<style>
+		@font-face {
+            font-family: 'Yeongdo-Rg';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.2/Yeongdo-Rg.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000000;
+            cursor: auto;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 1.2rem;
+            font-size: 2.5rem;
+            text-align: center;
+            font-family: 'Yeongdo-Rg';
+            animation: rainbow 3s linear infinite;
+            cursor: url('water-tap.png') 16 16, auto;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            width: 90%;
+            z-index: 2;
+            font-family: 'Yeongdo-Rg';
+            animation: rainbow 3s linear infinite;
+            cursor: url('water-tap.png') 16 16, auto;
+            word-break: keep-all;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+            100% { color: red; }
+        }
+
+        .text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body onclick="goToNextPage()">
+	<div class="text">
+        <h1>2024 밈 아카이브 : 컨텐츠 홍수 시대</h1>
+        <p>우리는 매일 눈 깜짝할 사이에 넘쳐나는 이미지와 영상 속에서 살아간다. 한 순간의 웃음, 반짝이는 아이디어, 그 모든 것이 ‘밈’으로 태어나 우리 일상에 스며든다. 그 어느 때보다 빠르게 변화하는 디지털 공간에서 우리는 ‘컨텐츠의 홍수’ 속에 살아가며, 그 속에서 우리의 목소리와 이야기를 찾는다. 이 사이트는 올해의 밈을 아카이빙하여, 2024년의 문화적 흐름을 연상시킬 수 있도록 한다.</p>
+    </div>
+
+    <script>
+        function goToNextPage() {
+            window.location.href = 'meme.html';
+        }
+
+    </script>
+</body>
+</html>
